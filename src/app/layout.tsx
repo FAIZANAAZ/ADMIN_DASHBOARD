@@ -6,11 +6,6 @@ import { AdminHeader } from "@/components/admin_componenet/AdminHeader";
 import { AdminSidebar } from "@/components/admin_componenet/AdminSidebar";
 
 
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 
 
