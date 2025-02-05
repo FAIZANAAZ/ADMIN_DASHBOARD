@@ -9,9 +9,9 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL("/sign-in", request.url))
   }
 
-  // if (isAuthenticated && isSignInPage) {
-  //   return NextResponse.redirect(new URL("/", request.url))
-  // }
+  if (isAuthenticated && isSignInPage) {
+    return NextResponse.redirect(new URL("/", request.url))
+  }
 
   return NextResponse.next()
 }
